@@ -1,0 +1,99 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color:#363946;
+}
+
+
+.header {
+    text-align: center;
+    padding: 10px;
+    background-color:#202A25;
+    color: white;
+    font-size: 30px;
+}
+
+.hero1 {
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    opacity: 0.9;
+}
+
+.image:hover{
+    background-color: black;
+    cursor: pointer;
+    border-radius: 48%;
+    opacity: 1;
+}
+
+
+.info-Container {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#info {
+    border-radius: 10px;
+    padding: 20px;
+    background-color:#D5D6AA;
+}
+
+.hero2{
+    display: flex;
+    gap: 150px;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#box {
+    /* border: 2px solid black; */
+    background-color:#9Dbbae;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+
+}
+
+.hero3 {
+    display:flex;
+    justify-content: center;
+    font-size: 50px;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+
+
+#message {
+    text-align: center;
+    padding: 30px;
+    background-color:rgb(57, 57, 218);
+    color: white;
+    border-radius: 10px;
+}
+
+#reset-game {
+    display: flex;
+    justify-content: center;
+}
+
+#reset-game button {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:#D5D6AA;
+    margin: 30px;
+    visibility: hidden;
+    cursor: pointer;
+}
